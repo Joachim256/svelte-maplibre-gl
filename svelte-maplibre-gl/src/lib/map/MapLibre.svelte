@@ -621,6 +621,7 @@
 		}
 	});
 	$effect(() => {
+		touchZoomRotate;
 		if (!map) return;
 
 		if (touchRotate === false) {
